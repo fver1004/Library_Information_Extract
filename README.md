@@ -6,4 +6,5 @@ Python 3.6.0 :: Anaconda 4.3.1 (32-bit)
 
 
 ### report
+2017.05.02 Scrapy (Ubuntu env) Test
 2017.04.29 Project Started
