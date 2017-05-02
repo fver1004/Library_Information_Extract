@@ -3,7 +3,7 @@ ProjectName
 
 ----------
 
-프로젝트 참여: **권필진, 김기연** [e-mail][^email]
+프로젝트 참여: **권필진, 김기연** e-mail[^1]
 <br>
 
 
@@ -76,6 +76,6 @@ Report
 
 
 
-  [^email]: **e-mail**<br>
+  [^1]: **e-mail**<br>
   권필진 [----](----) <br>
   김기연 [fver1004@gmail.com](mailto:fver1004@gmail.com) 
