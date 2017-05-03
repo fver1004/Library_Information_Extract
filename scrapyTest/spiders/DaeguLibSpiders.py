@@ -1,14 +1,13 @@
 import scrapy
 from scrapyTest.items import BookItem
-from scrapy.loader.processors import MapCompose
 
 class DaeguLibSpider(scrapy.Spider):
-    name = "quotes1"#스파이더 네임
+    name = "DULib"#스파이더 네임
     pageTest = 1    #페이지 넘기기용
     ignoreTd = [1,8]   #td 넘기기용
 
     def start_requests(self):
-        numberOfPage = 2    #페이지 반복수-1
+        numberOfPage = 20    #페이지 반복수-1
         for i in range(1,numberOfPage):
             yield scrapy.Request('https://lib.daegu.ac.kr/searchS/caz/result?os=&cpp=50&sNo=0&sq=005&st=SUBJ&oi=&msc=2000&pn=%d&briefType=T' % i, callback=self.pars)
 
@@ -30,22 +29,25 @@ class DaeguLibSpider(scrapy.Spider):
                         if selTd in DaeguLibSpider.ignoreTd:
                             pass
                         elif selTd == 2:
-                            item['bookType'] = td.xpath('normalize-space(p/text())').extract()
+                            f.write("%s," % " ".join(td.xpath('normalize-space(p/text())').extract()))
                         elif selTd == 3:
-                            item['bookName'] = td.xpath('normalize-space(span/a/text())').extract()
+                            f.write("%s," % " ".join(td.xpath('normalize-space(span/a/text())').extract()).replace(',','/'))
                         elif selTd == 4:
-                            item['author'] = td.xpath('normalize-space(text())').extract()
+                            f.write("%s," % " ".join(td.xpath('normalize-space(text())').extract()).replace(',','/'))
                         elif selTd == 5:
-                            item['publisher'] = td.xpath('normalize-space(text())').extract()
+                            f.write("%s," % " ".join(td.xpath('normalize-space(text())').extract()).replace(',','/'))
                         elif selTd == 6:
-                            item['symbol'] = td.xpath('normalize-space(text())').extract()
+                            f.write("%s," % " ".join(td.xpath('normalize-space(text())').extract()).replace(',','/'))
                         elif selTd == 7:
-                            item['date'] = td.xpath('normalize-space(text())').extract()
+                            f.write("%s"% " ".join(td.xpath('normalize-space(text())').extract()))
                         else:
                             pass
                         selTd += 1
 
-                    f.write("%s\n" % item)
+                    f.write("\n")
                     oddNum = False
                 else:
                     oddNum = True
+
+            for item in items:
+                yield item
