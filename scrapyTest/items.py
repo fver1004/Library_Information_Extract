@@ -8,6 +8,9 @@
 import scrapy
 from scrapy.item import Item, Field
 
+class BookInfoItem(scrapy.Item):
+        bookInfo = scrapy.Field()
+
 class BookItem(scrapy.Item):
         bookType = scrapy.Field()
         bookName = scrapy.Field()
