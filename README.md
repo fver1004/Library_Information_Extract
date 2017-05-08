@@ -40,13 +40,13 @@ Build Environment
 설명
 
 #### <i class="icon-refresh"></i> Bash Shell을 이용한 자동화
-**주기적 scrapy를 통한 데이터 수집**
-- 일 단위로 분석 데이터 수집
-- 디렉토리를 날짜 별로 생성 후 구분
-**주기적으로 MapReduce 실행**
-- HDFS 상으로 분석 데이터 Input
-- MapReduce Run
-- 분석 결과 Ouput
+> **주기적 scrapy를 통한 데이터 수집**
+> - 일 단위로 분석 데이터 수집
+> - 디렉토리를 날짜 별로 생성 후 구분
+> **주기적으로 MapReduce 실행**
+> - HDFS 상으로 분석 데이터 Input
+> - MapReduce Run
+> - 분석 결과 Ouput
 
 
 > **Note:** 참고
