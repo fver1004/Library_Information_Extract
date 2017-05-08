@@ -20,7 +20,7 @@ public class DaeguLibCount {
         
         // 하둡 환경설정 불러오기
         Configuration conf = new Configuration();
-        Job job = Job.getInstance(conf, "ArrivalDelayCount");
+        Job job = Job.getInstance(conf, "DaeguLibCount");//???????????????????????
         
         // 입력, 출력 경로 설정
         FileInputFormat.addInputPath(job, new Path(args[0]));
