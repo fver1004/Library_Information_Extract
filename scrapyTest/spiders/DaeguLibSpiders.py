@@ -1,3 +1,5 @@
+#_*_ coding:utf-8 _*_
+
 import scrapy
 from scrapyTest.items import BookInfoItem
 
