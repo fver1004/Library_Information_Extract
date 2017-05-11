@@ -14,29 +14,29 @@ public class DaeguLibCount {
  
     public static void main(String[] args) throws Exception {
         if (args.length != 2) {
-            System.err.println("Usage error : 2°³ÀÇ ÀÎ¼ö°¡ ÇÊ¿äÇÕ´Ï´Ù.");
+            System.err.println("Usage error : 2ê°œì˜ ì¸ìˆ˜ê°€ í•„ìš”í•©ë‹ˆë‹¤.");
             System.exit(2);
         }
         
-        // ÇÏµÓ È¯°æ¼³Á¤ ºÒ·¯¿À±â
+        // í•˜ë‘¡ í™˜ê²½ì„¤ì • ë¶ˆëŸ¬ì˜¤ê¸°
         Configuration conf = new Configuration();
         Job job = Job.getInstance(conf, "DaeguLibCount");//???????????????????????
         
-        // ÀÔ·Â, Ãâ·Â °æ·Î ¼³Á¤
+        // ì…ë ¥, ì¶œë ¥ ê²½ë¡œ ì„¤ì •
         FileInputFormat.addInputPath(job, new Path(args[0]));
         FileOutputFormat.setOutputPath(job, new Path(args[1]));
     
-        // job class ¼³Á¤ÇÏ±â
+        // job class ì„¤ì •í•˜ê¸°
         job.setJarByClass(DaeguLibCount.class);
-        // Mapper class ¼³Á¤ÇÏ±â
+        // Mapper class ì„¤ì •í•˜ê¸°
         job.setMapperClass(DaeguLibCountMapper.class);
-        // Reducer class ¼³Á¤ÇÏ±â
-        job.setReducerClass(DaeguLibCountReducer.class);
-        //  ÀÔ·Â  data format ¼³Á¤ÇÏ±â 
+        // Reducer class ì„¤ì •í•˜ê¸°
+        job.setReducerClass(DaeguLibCountReduce.class);
+        //  ì…ë ¥  data format ì„¤ì •í•˜ê¸° 
         job.setInputFormatClass(TextInputFormat.class);
-        // Ãâ·Â data format ¼³Á¤ÇÏ±â
+        // ì¶œë ¥ data format ì„¤ì •í•˜ê¸°
         job.setOutputFormatClass(TextOutputFormat.class);
-        // output key, value ¼³Á¤ÇÏ±â 
+        // output key, value ì„¤ì •í•˜ê¸° 
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
         
