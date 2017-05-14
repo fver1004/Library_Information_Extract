@@ -75,7 +75,7 @@ class DaeguLibSpider(scrapy.Spider):
         borrowStatList = sel.xpath('//table[@class="listtable"]/tbody/tr/td[@class="point"]/text()').extract()
         for borrowStat in borrowStatList:
             trNum += 1
-            if borrowStat == "대출중":
+            if borrowStat.encode("utf-8") == "대출중":
                 borrowNum += 1
                 
         bookInfoItem = item['bookInfo']
@@ -84,7 +84,7 @@ class DaeguLibSpider(scrapy.Spider):
         bookInfoList.append(str(trNum))
         bookInfoList.append(str(borrowNum))
         with open('ScrapyOutput.csv', 'a+') as f:
-            f.write("%s\n" % ",".join([str(i) for i in bookInfoList]))
+            f.write("%s\n" % ",".join([str(i.encode("utf-8")) for i in bookInfoList]))
 
 
 
