@@ -35,7 +35,7 @@ ProjectName
 -------------------------------------------------------
 
 
-사용법에 대한 설명 : ![Wiki](https://github.com/fver1004/scrapyTest/wiki/Installation-&-Configuration#how-to-install) 를 참조
+사용법에 대한 설명 : [WiKi](https://github.com/fver1004/scrapyTest/wiki/Installation-&-Configuration#how-to-install) 를 참조
 
 ![fucntion](http://i.imgur.com/4FLD2AM.png) : Implemented function
 ---------------------
