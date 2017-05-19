@@ -31,7 +31,7 @@ ProjectName
 > - Scrapy 1.3.3 :: Python 3.6.0 :: Anaconda 4.3.1
 > - Hadoop 2.7.3 :: Java 1.8.0_121
 
-![used](http://i.imgur.com/FjjTjKG.png) : How Can I used? 
+![used](http://i.imgur.com/rDNTaGc.png) : How Can I used? 
 -------------------------------------------------------
 
 
