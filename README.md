@@ -63,7 +63,7 @@ ProjectName
 
 ----------
 
-examples
+![ex](http://i.imgur.com/XPqPXiH.png) : examples
 -------------
 
 사진 or 글 or 영상 넣기 
@@ -76,7 +76,7 @@ examples
 
 
 
-Report
+![report](http://i.imgur.com/m6j6RuT.png) : Report
 --------------------
 
 > 2017.05.02 **Scrapy** :: Implement :: Storing as '.csv' file<br>
