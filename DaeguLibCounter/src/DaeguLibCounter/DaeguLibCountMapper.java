@@ -10,12 +10,23 @@ import org.apache.hadoop.mapreduce.Mapper;
 public class DaeguLibCountMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
     private IntWritable outputValue = new IntWritable();
     private Text outputKey = new Text();
+    WordProcess wordProcess;
     
+    protected void setup(Context context) throws IOException, InterruptedException {
+    	wordProcess = new WordProcess();
+    	System.out.println("dic.txt is loaded");
+    }
+    
+    
+    
+    DaeguLibCountMapper() throws IOException{
+
+    }
     
     //WordProcess 어디 선언할지
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
-    	WordProcess wordProcess = new WordProcess();
+    	
         DaeguLibParse parse = new DaeguLibParse();
         
     	parse.Parsing(value);
