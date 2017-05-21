@@ -66,8 +66,11 @@ ProjectName
 ![ex](http://i.imgur.com/XPqPXiH.png) : examples
 -------------
 #### 동영상을 통해 실행과정을 볼 수 있습니다.
-[![demo](http://i.imgur.com/97kz0DT.png)](https://player.vimeo.com/video/218338252)
+[![demo](http://i.imgur.com/97kz0DT.png)](https://player.vimeo.com/video/218344037)
 
+----------
+#### 실행결과는 다음과 같습니다.
+![0517](http://i.imgur.com/oVuGzOc.png)![0521](http://i.imgur.com/sPZ5Y4U.png)
 ----------
 
 
