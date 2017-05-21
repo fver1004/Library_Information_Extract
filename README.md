@@ -65,12 +65,8 @@ ProjectName
 
 ![ex](http://i.imgur.com/XPqPXiH.png) : examples
 -------------
-
-사진 or 글 or 영상 넣기 
-
-- 마아아아악 처음부터
-- 순서대로
-- 설명을 적어부려
+#### 동영상을 통해 실행과정을 볼 수 있습니다.
+[![demo](http://i.imgur.com/97kz0DT.png)](https://player.vimeo.com/video/218338252)
 
 ----------
 
@@ -79,10 +75,21 @@ ProjectName
 ![report](http://i.imgur.com/m6j6RuT.png) : Report
 --------------------
 
-> 2017.05.02 **Scrapy** :: Implement :: Storing as '.csv' file<br>
-> 2017.05.02 **Scrapy** :: Implement :: Parsing 'Daegu Univ. Library Page'<br>
-> 2017.05.02 **Scrapy** :: (Ubuntu env) Test<br>
-> 2017.04.29 Project Started<br>
+> 2017.05.21 **Shell**  :: 빌드 :: [Shell 주기적 수행 구현 완료](https://github.com/fver1004/scrapyTest/commit/8ad27057e8bfacd627e319b6cd3a1be74f1b514b)<P>
+> 2017.05.21 **MapReduce** :: 수정 :: [정규표현식 + 단어로 패턴 검색](https://github.com/fver1004/scrapyTest/commit/d470d3ce9ae90aee2f492b0b338fa5eec4a2f3eb)<p>
+> 2017.05.19 **MapReduce** :: 수정 :: 형태소 분석 오픈소스 안쓰고 저장된 단어로 연산<p>
+> 2017.05.19 **MapReduce** :: 빌드 :: 형태소 분석을 위한 MapReduce 임시 구현<p>
+> 2017.05.14 **Scrapy** :: 수정 :: [인코딩 에러 수정](https://github.com/fver1004/scrapyTest/commit/4093f448cde791c39c6f90b606fc3752c5730ca4)<p>
+> 2017.05.14 **MapReduce** :: 빌드 :: 맵리듀스 임시 구현<p>
+> 2017.05.12 **Shell**  :: 빌드 :: [Shell과 crontab을 이용하여 주기적으로 수행](https://github.com/fver1004/scrapyTest/commit/f7326e5b11bd83c20e0c94885b60b4c1311626ac)<p>
+> 2017.05.10 **Shell**  :: 빌드 :: Scrapy와 MapReduce 주기적으로 수행할 Shell 코딩<p>
+> 2017.05.08 **Scrapy** :: 빌드 :: 'BookSpider.py', 'DaeguLibSpider.py' 통합<p>
+> 2017.05.07 **Scrapy** :: 빌드 :: column '도서 수', '대출 건수' 추가.<p>
+> 2017.05.04 **Scrapy** :: 빌드 :: column '도서 URL' 추가.<p>
+> 2017.05.02 **Scrapy** :: 빌드 :: 파싱 후 '.csv' file로 저장<p>
+> 2017.05.02 **Scrapy** :: 빌드 :: 'Daegu Univ. 도서 목록' 크롤링<p>
+> 2017.05.02 **Scrapy** :: (Ubuntu env) 테스트<p>
+> 2017.04.29 Project 시작<p>
 
 
 
