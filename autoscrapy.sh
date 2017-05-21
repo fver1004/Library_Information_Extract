@@ -14,6 +14,13 @@ hadoop jar ~/DaeguLibCounter.jar DeguLinCounter.DaeguLibCount /$NOW /out_$NOW
 
 #---------------------------------#
 # 일단위 크롤링을 위한 crontab 설정 #
-#  0 1 * * * $path/autoscrapy.sh  #
+# 00 01 * * * $path/autoscrapy.sh #
 #     매일 새벽 한시 크롤링 실행    #
 #---------------------------------#
+#------------------------------------------------------------------#
+# crontab의 경우 path가 해제됨.                                     
+# 따라서 다음과 같이 명령어를 수행하여야함                            
+# 분 시간 일 월 요일 user 명령어                                    
+# * * * * * cd scrapy_project_forder/project_name && autoscrapy.sh
+# 경로를 이동하지 않으면 runspider: error: Unable to load 에러 발생
+#------------------------------------------------------------------#
