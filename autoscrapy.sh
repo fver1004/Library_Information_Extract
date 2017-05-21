@@ -1,16 +1,20 @@
+#Scrapy Project folder안에 shell을 위치시켜야 정상작동
 #!/bin/bash
 # 오늘 날짜를 확인하기 위한 변수 선언
-NOW=$(date +"%m%d")
+MD=$(date +"%m%d")
+MDY=$(date+"%y%m%d")
 # 결과 파일을 분류 저장하기 위한 폴더 생성
-mkdir ~/result/$NOW
+mkdir ~/result/$MD
 # 스크래피 명령 실행
 scrapy runspider $SCRAPY_HOME/DaeguLibSpider.py
+# 실행결과 파일을 result 폴더로 이동
+mv ScrayResult.csv ~/result/$MD
 # HDFS 상에 일별 폴더 생성
-hadoop fs -mkdir /in_$NOW
+hadoop fs -mkdir /$MD
 # HDFS 상으로 CSV input
-hadoop fs -put ~/result/$NOW/* 
+hadoop fs -put ~/result/$MD/* /$MD
 # 스크래피 분석 Map Ruduce 실행
-hadoop jar ~/DaeguLibCounter.jar DeguLinCounter.DaeguLibCount /$NOW /out_$NOW
+hadoop jar ~/DaeguLibCounter.jar DeguLinCounter.DaeguLibCount /$MD /$YMD
 
 #---------------------------------#
 # 일단위 크롤링을 위한 crontab 설정 #
