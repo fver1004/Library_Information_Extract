@@ -19,7 +19,10 @@ import org.apache.hadoop.fs.Path;
  * value
  * 
  * key
- * value	=><key, array> 쌍으로 생성자에서 저장한 뒤  Processing()에서 처리
+ * value
+ * -------------------------
+ * WordProcess() : Map이 실행되면 hdfs 내의 dic.txt를 LinkedHashMap에 로드함.
+ * <key, array> 쌍으로 로드된 뒤  Processing()에서 처리
  */
 public class WordProcess {
 	Path pt=new Path("hdfs:/dic.txt");//Location of file in HDFS
@@ -30,6 +33,13 @@ public class WordProcess {
 	Pattern p;
 	Matcher m;
 	
+	/* LinkedHashMap 구성
+	 * <String, String[]>
+	 * <"단어","value,value2,value3...">
+	 * 
+	 * 정규식(patternL, patternR) 이용하여 예외문자들 어느정도 필터링
+	 * 
+	 */
 	WordProcess() throws IOException{
 		
 	    FileSystem fs = FileSystem.get(new Configuration());
@@ -68,7 +78,7 @@ public class WordProcess {
         	        	
         	        	if(m.find()){
         	        		tokenList.add(key);
-        	        		break;}//중복토큰 없도록 break
+        	        		break;}//중복토큰 없도록 for문 break
         	        	
         	        }
     	    	}
