@@ -1,4 +1,4 @@
-ProjectName
+Library Information Extract
 ===================
 
 ----------
@@ -7,11 +7,12 @@ ProjectName
 <br>
 
 
-![intro](http://i.imgur.com/X2i1h1B.png) : Introduction 
+![intro](http://i.imgur.com/X2i1h1B.png)  
+Introduction 
 --------------------------------------------------------------
 
 
-**ProjectName**은 오픈소스 scrapy와 Hadoop을 이용하여, 특정 사이트 페이지를 크롤링-파싱, 분석처리까지 자동화하는 데 목표를 두고 있는 간단한 프로젝트입니다. 소스코드에 들어있는 scrapy와 MapReduce 예제는 도서관의 내용을 파싱하여 최근의 컴퓨터공학분야에서 관심이 많은 항목들에 대한 분석을 위한 데모-프로그램/소스코드 입니다.
+**Library Information Extract**은 오픈소스 scrapy와 Hadoop을 이용하여, 특정 사이트 페이지를 크롤링-파싱, 분석처리까지 자동화하는 데 목표를 두고 있는 간단한 프로젝트입니다. 소스코드에 들어있는 scrapy와 MapReduce 예제는 도서관의 내용을 파싱하여 최근의 컴퓨터공학분야에서 관심이 많은 항목들에 대한 분석을 위한 데모-프로그램/소스코드 입니다.
  
 
 > **응용 오픈소스/오픈소스 소프트웨어:**
@@ -21,7 +22,8 @@ ProjectName
 > - [Hadoop](http://hadoop.apache.org/) (APACHE LICENSE, VERSION 2.0) 
 
 
-![env](http://i.imgur.com/FjjTjKG.png) : Build Environment 
+![env](http://i.imgur.com/FjjTjKG.png)  
+Build Environment 
 ------------------------------------------------------------
 
 
@@ -31,13 +33,15 @@ ProjectName
 > - Scrapy 1.3.3 :: Python 3.6.0 :: Anaconda 4.3.1
 > - Hadoop 2.7.3 :: Java 1.8.0_121
 
-![used](http://i.imgur.com/rDNTaGc.png) : How Can I used? 
+![used](http://i.imgur.com/rDNTaGc.png)  
+How Can I used? 
 -------------------------------------------------------
 
 
 사용법에 대한 설명 : [WiKi](https://github.com/fver1004/scrapyTest/wiki/Installation-&-Configuration#how-to-install) 를 참조
 
-![fucntion](http://i.imgur.com/4FLD2AM.png) : Implemented function
+![fucntion](http://i.imgur.com/4FLD2AM.png)  
+Implemented function
 ---------------------
 ### <i class="icon-refresh"></i> Scrapy
 
@@ -63,7 +67,8 @@ ProjectName
 
 ----------
 
-![ex](http://i.imgur.com/XPqPXiH.png) : examples
+![ex](http://i.imgur.com/XPqPXiH.png)  
+examples
 -------------
 #### 동영상을 통해 실행과정을 볼 수 있습니다.
 [![demo](http://i.imgur.com/97kz0DT.png)](https://player.vimeo.com/video/218344037)
@@ -75,7 +80,8 @@ ProjectName
 
 
 
-![report](http://i.imgur.com/m6j6RuT.png) : Report
+![report](http://i.imgur.com/m6j6RuT.png)  
+Report
 --------------------
 
 > 2017.05.21 **Shell**  :: 빌드 :: [Shell 주기적 수행 구현 완료](https://github.com/fver1004/scrapyTest/commit/8ad27057e8bfacd627e319b6cd3a1be74f1b514b)<P>
