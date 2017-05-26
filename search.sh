@@ -1,3 +1,4 @@
+#path: hdfs 분석결과파일 경로
 #!/bin/bash
 echo "검색하고자 하는 날짜를 입력하세요"
 echo " ------ example--------- "

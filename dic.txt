@@ -1,0 +1,491 @@
+﻿C
+C,C언어,씨언어
+
+C++
+C++
+
+JAVA
+JAVA,자바
+
+UML
+UML
+
+객체지향
+객체지향
+
+설계
+설계
+
+PERL
+펄,PERL
+
+PYTHON
+파이썬,PYTHON
+
+ECLIPSE
+이클립스,ECLIPSE
+
+VISUAL STUDIO
+비쥬얼 스튜디오,VISUAL STUDIO
+
+IDE
+IDE
+
+프로그래밍
+프로그래밍,PROGRAMMING
+
+RAPTOR
+RAPTOR
+
+SCRATCH
+스크래치, SCRATCH
+
+BOOST.ASIO
+BOOST.ASIO,ASIO
+
+불칸
+불칸
+
+.NET
+ASP.NET,VISUAL BASIC.NET,VISUAL C++.NET,.NET
+
+VISUAL BASIC
+VISUAL BASIC,비주얼 베이직
+
+C#
+C#
+
+DELPHI
+델파이,DELPHI
+
+OBJECT C
+OBJECT C
+
+CGI
+CGI
+
+RUBY
+RUBY,루비,RAILS
+
+XML
+XML
+
+DATABASE
+데이터베이스,DATABASE
+
+MARIADB
+MARIADB,마리아DB
+
+ORACLE
+ORACLE,오라클
+
+MYSQL
+MYSQL
+
+MSSQL
+MSSQL
+
+몽고DB
+몽고DB
+
+ACCESS
+ACCESS
+
+SQL
+SQL
+
+POSTGRESQL
+POSTGRESQL
+
+NOSQL
+NOSQL
+
+RDBMS
+RDBMS
+
+티베로
+티베로,TIBERO
+
+AZURE
+AZURE,애저
+
+SPARK
+SPARK,스파크
+
+튜닝
+튜닝,TUNING
+
+큐브리드
+큐브리드,CUBRID
+
+STORM
+스톰, STORM
+
+예측분석
+예측 분석,예측분석
+
+모델링
+모델링
+
+YARN
+YARN,얀
+
+SOLR
+SOLR
+
+MAPREDUCE
+MAPREDUCE,맵리듀스
+
+HDFS
+HDFS,HADOOP DISTRIBUTED FILE SYSTEM
+
+PIG
+PIG
+
+SERVLET
+SERVLET
+
+KNITR
+KNITR
+
+SQL SERVER
+SQL SERVER,SQL 서버
+
+T-SQL
+T-SQL
+
+OS
+운영체제,OS,OPERATING SYSTEM 
+
+LINUX
+리눅스,LINUX
+
+UNIX
+유닉스,UNIX
+
+UBUNTU
+우분투,UBUNTU
+
+웹
+웹,WEB
+
+MACOS
+MACOS
+
+REDHAT
+REDHAT
+
+CENTOS
+CENTOS
+
+WINDOWS
+WINDOWS,윈도우
+
+JSP
+JSP
+
+.NET
+.NET
+
+JSON
+JSON
+
+JQUERY
+JQUERY
+
+AJAX
+AJAX
+
+ASP
+ASP
+
+NODE.JS
+NODE.JS
+
+CSS
+CSS
+
+자바 스크립트
+자바 스크립트,JAVA SCRIPT
+
+애플릿
+애플릿,APPLET
+
+FX
+FX
+
+WEB DESIGN
+웹 디자인,WEB DESIGN
+
+PHP
+PHP
+
+HTML
+HTML5, HTML
+
+WEB EDITER
+웹에디터,WEB EDITER,WEBEDITER,웹 에디터
+
+DREAMWEAVER
+드림위버,DREAMWEAVER
+
+웹기획
+웹기획,웹 기획
+
+ILLUSTRATOR
+일러스트레이터,ILLUSTRATOR
+
+PHOTOSHOP
+포토샵,PHOTOSHOP
+
+FLASH
+플래시,FLASH
+
+데이터통신
+데이터통신,데이터 통신
+
+네트워크
+네트워크,NETWORK
+
+무선
+무선,WIRELESS
+
+DATA MINING
+데이터 마이닝,DATA MINING,MINING
+
+HADOOP
+하둡,HADOOP
+
+병렬처리
+병렬처리,병렬 처리
+
+분산처리
+분산처리,분산 처리
+
+데이터 분석
+데이터 분석
+
+R
+R
+
+RSTUDIO
+RSTUDIO
+
+빅데이터
+BIG DATA,빅 데이터, 빅데이터
+
+통계분석
+통계학,통계,통계분석
+
+ADSP
+ADSP
+
+STATA
+STATA
+
+GOOGLE ANALYTICS
+구글 애널리틱스,GOOGLE ANALYTICS
+
+SPLUNK
+SPLUNK
+
+클라우드
+클라우드,CLOUD
+
+데이터 접근
+데이터 접근
+
+HBASE
+HBASE
+
+HIVE
+HIVE,하이브
+
+CASSANDRA
+카산드라,CASSANDRA
+
+JDBC
+JDBC
+
+COUCHDB
+COUCHDB
+
+ALTIBASE
+ALTIBASE
+
+SQLITE
+SQLITE
+
+RAC
+RAC
+
+MOBILE
+모바일,MOBILE
+
+ANDROID
+안드로이드,ANDROID
+
+IOS
+아이폰,IOS
+
+앱 인벤터
+앱 인벤터,APP INVENTOR
+
+애플리케이션
+애플리케이션,APPLICATION
+
+웹앱
+웹앱,WEB APP,웹 앱
+
+스마트폰
+스마트폰,SMARTPHONE,SMART PHONE
+
+인공지능
+인공지능,A.I,ARTIFICIAL INTELLIGENCE
+
+머신 러닝
+머신 러닝,MACHINE LEARNING
+
+딥러닝
+딥러닝,DEEP LEARNING
+
+그래픽
+그래픽,GRAPHIC
+
+UNREAL ENGINE
+UNREAL ENGINE,언리얼 엔진
+
+UNITY
+UNITY,유니티
+
+OAUTH
+OAUTH
+
+GIT
+GIT,깃,깃허브,깃 허브
+
+SVN
+SVN
+
+MERCURIAL
+머큐리얼,MERCURIAL
+
+SNS
+SNS
+
+TABLET
+태블릿,TABLET
+
+소프트웨어공학
+소프트웨어공학
+
+자료구조
+자료구조
+
+알고리즘
+알고리즘,ALGORITHM
+
+전산수학
+전산수학
+
+SPSS
+SPSS
+
+MATLAB
+MATLAB
+
+정보통신
+정보통신
+
+정보통신공학
+정보통신공학
+
+컴퓨터공학
+컴퓨터공학
+
+전산학
+전산학
+
+가상현실
+가상현실,VIRTUAL REALITY
+
+증강현실
+증강현실,AUGMENTED REALITY
+
+융합현실
+융합현실,MERGED REALITY
+
+4차 산업혁명
+4차 산업혁명
+
+임베디드
+임베디드,EMBEDDED
+
+CPU
+CPU
+
+X86
+X86
+
+ARM
+ARM
+
+프로세싱
+프로세싱,PROCESSING
+
+라즈베리 파이
+라즈베리,RASPBERRY PI
+
+아두이노
+아두이노,ARDUINO
+
+마이크로프로세서
+마이크로프로세서,MICRO PROCESSOR
+
+아키텍처
+아키텍처,ARCHITECTURE
+
+해킹
+해킹,HACKING
+
+리버싱
+리버싱,REVERSE,리버스 엔지니어링,REVERSING
+
+보안
+보안,SECURITY
+
+네트워크 보안
+네트워크 보안,NETWORK SECURITY
+
+자격증
+자격증
+
+웹디자인 기능사
+웹디자인 기능사
+
+인터넷정보 관리사
+인터넷정보 관리사
+
+정보기기/정보통신
+정보기기/정보통신
+
+전자상거래
+전자상거래
+
+정보처리기능사
+정보처리기능사
+
+정보처리기사
+정보처리기사
+
+정보처리산업기사
+정보처리산업기사
+
+SCJP
+SCJP
+
+OCA
+OCA
+
+OCP
+OCP
